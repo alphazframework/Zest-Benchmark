@@ -1,0 +1,10 @@
+component:
+    slug: zest-framework
+benchmark:
+    type: hello-world
+    relativeUrl: /benchmark/helloworld
+sourceCode:
+    entryPoint: public/index.php
+coreDependency:
+    name: zest/framework
+    version: 3.0.0

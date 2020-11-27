@@ -1,39 +1,44 @@
-[![Build Status](https://travis-ci.org/zestframework/Zest.svg?branch=master)](https://travis-ci.org/zestframework/Zest)
-[![StyleCI](https://github.styleci.io/repos/133794233/shield?branch=master)](https://github.styleci.io/repos/133794233)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://zestframework.xyz/contribute/index)
-[![Latest Stable Version](https://poser.pugx.org/softhub99/zest/v/stable)](https://packagist.org/packages/softhub99/zest)
-[![Latest Unstable Version](https://poser.pugx.org/softhub99/zest/v/unstable)](https://packagist.org/packages/softhub99/zest)
-[![License](https://poser.pugx.org/softhub99/zest/license)](https://packagist.org/packages/softhub99/zest)
+<p align="center">
+  <img src="http://www.phpbenchmarks.com/images/logo_github.png">
+  <br>
+  <a href="http://www.phpbenchmarks.com" target="_blank">www.phpbenchmarks.com</a>
+</p>
 
-# Zest PHP Framework 
+## What is www.phpbenchmarks.com?
 
-## About Zest
+You will find a lot of benchmarks for PHP and PHP libraries on [phpbenchmarks.com](http://www.phpbenchmarks.com).
 
-Zest is a very light-weight PHP framework without any dependencies except core and autoloader.
+Benchmarks results are available from PHP 5.6 to latest version.
 
-## Installation
+Our benchmarking protocol is available on [benchmarking protocol page](http://www.phpbenchmarks.com/en/documentation/benchmarking-protocol).
 
-http://zest.readthedocs.io/en/latest/installation/
+## What is this repository?
 
-## Documentation
+It contains Zest Framework benchmark code.
 
-http://zest.readthedocs.io/en/latest/
+Switch branch to select version and benchmark you want to see.
 
-## Contributing
+## Benchmarks
 
-Thank you for considering contributing to the Zest framework! Feel free to create a pull request.
-### Contrubuting guide
+You can find Zest Framework 3.0 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/zest-framework/3.0).
 
-http://zest.readthedocs.io/en/latest/zestcontribute/
+See all Zest Framework benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/zest-framework/version).
 
-## Security Vulnerabilities
+## Community
 
-If you discover a security vulnerability within Zest, 
-please send an e-mail to Malik Umer Farooq
-via [lablnet01@gmail.com](mailto:lablnet01@gmail.com). 
-All security vulnerabilities will be promptly addressed.
+Go to [community page](http://www.phpbenchmarks.com/en/community) to see the Hall of fame, or download the benchmark kit to add your code!
 
-## License
+## How version works?
 
-The Zest framework is open-sourced software 
-licensed under the [MIT license](https://opensource.org/licenses/MIT).
+We do not follow semantic version for this repository.
+
+Here is an explanation about our versioning system:
+
+`X.Y.Z_benchmark-slug_W`
+
+* `X`: Zest Framework major version.
+* `Y`: Zest Framework minor version.
+* `Z`: Zest Framework patch version.
+* `benchmark-slug`: slug of the benchmark, list available on [documentation page](http://www.phpbenchmarks.com/en/documentation).
+* `W`: benchmark version
